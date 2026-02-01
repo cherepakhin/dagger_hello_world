@@ -1,0 +1,1 @@
+java -jar target/dagger-hello-world-1-jar-with-dependencies.jar
