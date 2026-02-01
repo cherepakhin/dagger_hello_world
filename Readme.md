@@ -1,4 +1,4 @@
-Dagger - Dependeny Injection library
+Hello World project for Dagger (Dependeny Injection library).
 
 Links:
 
