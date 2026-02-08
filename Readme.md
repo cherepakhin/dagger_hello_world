@@ -9,6 +9,23 @@ hello world!!!!!
 Hi there!!!!!
 ````
 
+### Package executable jar
+
+[package.sh](package.sh)
+
+````shell
+mvn clean package
+````
+
+### Run Jar
+
+Java 11
+
+````shell
+java -jar target/dagger-hello-world-1.0.0-jar-with-dependencies.jar
+````
+
+
 ### Links:
 
 [Описание Dagger (v.perm.ru)](https://v.perm.ru/index.php/component/content/article/dagger?catid=15)<br/>

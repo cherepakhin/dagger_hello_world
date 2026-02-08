@@ -1,1 +1,3 @@
-java -jar target/dagger-hello-world-1-jar-with-dependencies.jar
+#!/bin/bash
+# Java 11
+java -jar target/dagger-hello-world-1.0.0-jar-with-dependencies.jar
