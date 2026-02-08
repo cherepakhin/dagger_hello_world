@@ -2,6 +2,11 @@
 
 ![doc/project_structure.png](doc/project_structure.png)
 
+[run_mvn_exec.sh](run_mvn_exec.sh)
+````shell
+mvn exec:java
+````
+
 ````shell
 ./run.sh
 
