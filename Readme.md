@@ -21,6 +21,8 @@ mvn clean package
 
 Java 11
 
+[./run_jar.sh](./run_jar.sh)
+
 ````shell
 java -jar target/dagger-hello-world-1.0.0-jar-with-dependencies.jar
 ````
