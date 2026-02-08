@@ -18,11 +18,25 @@ public class DataPrinter {
 	}
 
 	public void print() {
-		String dataFromSQL = sqlSource.read();
-		String dataFromFile = fileSource.read();
+		String dataFromSQL = getDataFromSQL();
+		String dataFromFile = getDataFromFile();
 
 		System.out.println(dataFromSQL);
 		System.out.println(dataFromFile);
+	}
+
+	public String getDataFromFile() {
+		if (fileSource == null) {
+			throw new RuntimeException("fileSource is null");
+		}
+		return fileSource.read();
+	}
+
+	public String getDataFromSQL() {
+		if (sqlSource == null) {
+			throw new RuntimeException("sqlSource is null");
+		}
+		return sqlSource.read();
 	}
 
 }
